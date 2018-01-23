@@ -22,7 +22,7 @@ public class Main {
 
         Pen pixulFermecat = new Pen();
         pixulFermecat.setColorOfInk("red");
-        System.out.println("Pentru a scrie numarul de pagini dorit aveti nevoie de" + pixulFermecat.scrie(25)
+        System.out.println("Pentru a scrie numarul de pagini dorit aveti nevoie de " + pixulFermecat.scrie(25)
                 + " pixuri");
 
         Candle lumanare = new Candle();
