@@ -23,9 +23,6 @@ public class Pen {
         this.nrDePagini = nrDePagini;
     }
 
-
-
-
     public String getColorOfPen() { return colorOfPen; }
 
     public void setColorOfPen(String colorOfPen) {
