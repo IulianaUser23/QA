@@ -16,7 +16,8 @@ public class OperatiiLogice {
             return "Got to try some more";
         }
     }
-    public int equalsTo (int number){
+
+    public int equalsTo(int number) {
         if (number >= 2 && number <= 8) {
             return number;
         } else {
@@ -24,5 +25,11 @@ public class OperatiiLogice {
         }
     }
 
-
+    public String numberAndText(int myNumber, String myText) {
+        if (myText.equals("FastTrack") && myNumber <= 3) {
+            return myText + myNumber;
+        } else if (!myText.equals("FastTrack") && myNumber >= 4) {
+            return myNumber + myText;
+        }return "Not Valid";
+    }
 }

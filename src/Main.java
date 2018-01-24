@@ -52,11 +52,13 @@ public class Main {
 than 3, print the text and the number. If the text is not “FastTrack” AND  the number is equal to or higher
 than 4, print the number and the text, in this order.*/
 
-        /*System.out.println("Enter a word: ");
+        System.out.println("Enter a word: ");
         String myText = scan.next();
         System.out.println("Enter a number: ");
         int myNumber =scan.nextInt();
-        if (myText.equals("FastTrack")&& myNumber <= 3) {
+        System.out.println(op.numberAndText(myNumber, myText));
+
+        /*if (myText.equals("FastTrack")&& myNumber <= 3) {
             System.out.println("The text is: " + myText + " and the nummer is: " + myNumber);
         }else if (!myText.equals("FastTrack") && myNumber >= 4){
             System.out.println("The number is: " + myNumber +"and the text is:" + myText);
