@@ -8,10 +8,13 @@ public class OperatiiLogice {
             return firstNumber;
         } else return secondNumber;
     }
-    public String containText (String text){
-        if (text.equals("FastTrack")){
+
+    public String containText(String text) {
+        if (text.equals("FastTrack")) {
             return "Learning text comparison";
-        }else { return "Got to try some more";
+        } else {
+            return "Got to try some more";
+        }
     }
-    }
+
 }

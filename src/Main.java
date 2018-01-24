@@ -7,14 +7,14 @@ public class Main {
 
     public static void main(String[] args) {
 
-       Calculator calculator = new Calculator();
-       // calculator.adunare(3,4);
-        System.out.println("Rezultatul adunarii este: " + calculator.adunare(3,4));
-        System.out.println("Rezultatul scaderii este: " + calculator.scadere(7,4));
-        System.out.println("Rezultatul inmultirii este: " + calculator.inmultire(7,4));
-        System.out.println("Rezultatul impartirii este: " + calculator.impartire(7,4));
-        System.out.println("Restul impartirii este: " + calculator.modulo(7,4));
-        System.out.println("Ridicare la putere este: " + calculator.ridicareLaPutere(3,3));
+        Calculator calculator = new Calculator();
+        // calculator.adunare(3,4);
+        System.out.println("Rezultatul adunarii este: " + calculator.adunare(3, 4));
+        System.out.println("Rezultatul scaderii este: " + calculator.scadere(7, 4));
+        System.out.println("Rezultatul inmultirii este: " + calculator.inmultire(7, 4));
+        System.out.println("Rezultatul impartirii este: " + calculator.impartire(7, 4));
+        System.out.println("Restul impartirii este: " + calculator.modulo(7, 4));
+        System.out.println("Ridicare la putere este: " + calculator.ridicareLaPutere(3, 3));
         System.out.println("Radicalul este: " + calculator.radical(16));
 
 
@@ -22,21 +22,46 @@ public class Main {
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Enter first number: ");
+        /*System.out.println("Enter first number: ");
         int first = scan.nextInt();
         System.out.println("Enter second number: ");
         int second = scan.nextInt();
 
         OperatiiLogice op = new OperatiiLogice();
-        System.out.println("Maximum number is: " + op.compareNumbers(first,second));
+        System.out.println("Maximum number is: " + op.compareNumbers(first, second));
+*/
+//Given a text input, if it is “FastTrack”, then print “Learning text comparison”. If not, print
+// “Got to try some more”
 
-        //Given a text input, if it is “FastTrack”, then print “Learning text comparison”. If not, print
-//“Got to try some more”
+        /*String text = scan.next();
+        System.out.println(op.containText(text));*/
 
-        String text = scan.next();
-        System.out.println(op.containText(text));
+//Given a number, if it’s equal to or higher than 2 and equal to or lower than 8, print the number
 
+       /* System.out.println("Enter a number: ");
+        int number = scan.nextInt();
 
+        if (number >= 2 && number <= 8) {
+            System.out.println("Number is:" + number);
+        } else {
+            System.out.println("Number is out of range");
+        }*/
+
+        /*Given a text input and a number input, if the text is equal to “FastTrack” AND the number is equal to or lower
+than 3, print the text and the number. If the text is not “FastTrack” AND     the number is equal to or higher
+than 4, print the number and the text, in this order.*/
+
+        System.out.println("Enter a word: ");
+        String myText = scan.next();
+        System.out.println("Enter a number: ");
+        int myNumber =scan.nextInt();
+        if (myText.equals("FastTrack")&& myNumber<=3) {
+            System.out.println("The text is: " + myText + " and the nummer is: " + myNumber);
+        }else if (!myText.equals("FastTrack") && myNumber>=4){
+            System.out.println("The number is: " + myNumber +"and the text is:" + myText);
+        }
+
+    }
 
 
 
@@ -54,7 +79,7 @@ public class Main {
 
         Candle lumanare = new Candle();*/
 
-  //  bark();  cu mostenire
+    //  bark();  cu mostenire
 
     /*  Dog rex = new Dog();
         rex.setAge(4);
@@ -90,6 +115,5 @@ public class Main {
         scadere();
         inmultire();
         impartire();*/
-    }
-
 }
+
