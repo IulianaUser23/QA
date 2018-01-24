@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
 
     //public static int primulNumar = 6;
@@ -5,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Calculator calculator = new Calculator();
+       Calculator calculator = new Calculator();
        // calculator.adunare(3,4);
         System.out.println("Rezultatul adunarii este: " + calculator.adunare(3,4));
         System.out.println("Rezultatul scaderii este: " + calculator.scadere(7,4));
@@ -16,6 +18,31 @@ public class Main {
         System.out.println("Radicalul este: " + calculator.radical(16));
 
 
+        //Given two numbers, see which one is the greatest and print it
+
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("Enter first number: ");
+        int first = scan.nextInt();
+        System.out.println("Enter second number: ");
+        int second = scan.nextInt();
+
+        OperatiiLogice op = new OperatiiLogice();
+        System.out.println("Maximum number is: " + op.compareNumbers(first,second));
+
+        //Given a text input, if it is “FastTrack”, then print “Learning text comparison”. If not, print
+//“Got to try some more”
+
+        String text = scan.next();
+        System.out.println(op.containText(text));
+
+
+
+
+
+
+
+/*
         Book carte = new Book();
         carte.setAuthor("Vargas Llosa");
         System.out.println("Au mai ramas de citit:" + carte.numberOfPagesLeft(603,47));
@@ -25,11 +52,11 @@ public class Main {
         System.out.println("Pentru a scrie numarul de pagini dorit aveti nevoie de " + pixulFermecat.scrie(25)
                 + " pixuri");
 
-        Candle lumanare = new Candle();
+        Candle lumanare = new Candle();*/
 
+  //  bark();  cu mostenire
 
-
-       /* Dog rex = new Dog();
+    /*  Dog rex = new Dog();
         rex.setAge(4);
         rex.setAlive(true);
         rex.setWheight(59.4);
