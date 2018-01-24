@@ -70,10 +70,17 @@ the given number. Else print “The forecast snow is(cm):”*/
         } else {
             System.out.println("The forecast snow is(cm): " + meteoNumber);
         }*/
+
 /* Given a number input, if the number is greater than 3 but not equal to 4, print “The number is greater than 3 and
 not equal to 4”. Else if the number is equal to 4 print ”The number is equal to 4”. Else if the number is
 lower than 3 print “The number is lower than 3”*/
-
+        System.out.println("Enter a number: ");
+        int number1 = scan.nextInt();
+        if (number1==4){
+            System.out.println("The number is equal to 4");
+        }else if (number1<3){
+            System.out.println("The number is lower than 3");
+        } else System.out.println("The number is greater than 3 and not equal to 4");
     }
 
 
