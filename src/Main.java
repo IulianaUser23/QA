@@ -51,15 +51,28 @@ public class Main {
 than 3, print the text and the number. If the text is not “FastTrack” AND     the number is equal to or higher
 than 4, print the number and the text, in this order.*/
 
-        System.out.println("Enter a word: ");
+        /*System.out.println("Enter a word: ");
         String myText = scan.next();
         System.out.println("Enter a number: ");
         int myNumber =scan.nextInt();
-        if (myText.equals("FastTrack")&& myNumber<=3) {
+        if (myText.equals("FastTrack")&& myNumber <= 3) {
             System.out.println("The text is: " + myText + " and the nummer is: " + myNumber);
-        }else if (!myText.equals("FastTrack") && myNumber>=4){
+        }else if (!myText.equals("FastTrack") && myNumber >= 4){
             System.out.println("The number is: " + myNumber +"and the text is:" + myText);
-        }
+        }*/
+/*Given a number input, if it is higher than 8 OR equal to 6, print “The amount of snow this winter was(cm):” and
+the given number. Else print “The forecast snow is(cm):”*/
+
+        /*System.out.println("Enter a number: ");
+        int meteoNumber = scan.nextInt();
+        if (meteoNumber > 8 || meteoNumber == 6){
+            System.out.println("The amount of snow this winter was(cm): " + meteoNumber );
+        } else {
+            System.out.println("The forecast snow is(cm): " + meteoNumber);
+        }*/
+/* Given a number input, if the number is greater than 3 but not equal to 4, print “The number is greater than 3 and
+not equal to 4”. Else if the number is equal to 4 print ”The number is equal to 4”. Else if the number is
+lower than 3 print “The number is lower than 3”*/
 
     }
 
