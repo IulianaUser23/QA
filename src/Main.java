@@ -22,33 +22,34 @@ public class Main {
 
         Scanner scan = new Scanner(System.in);
 
-        /*System.out.println("Enter first number: ");
+        System.out.println("Enter first number: ");
         int first = scan.nextInt();
         System.out.println("Enter second number: ");
         int second = scan.nextInt();
 
         OperatiiLogice op = new OperatiiLogice();
         System.out.println("Maximum number is: " + op.compareNumbers(first, second));
-*/
+
 //Given a text input, if it is “FastTrack”, then print “Learning text comparison”. If not, print
 // “Got to try some more”
 
-        /*String text = scan.next();
-        System.out.println(op.containText(text));*/
+        String text = scan.next();
+        System.out.println(op.containText(text));
 
 //Given a number, if it’s equal to or higher than 2 and equal to or lower than 8, print the number
 
-       /* System.out.println("Enter a number: ");
+        System.out.println("Enter a number: ");
         int number = scan.nextInt();
+        System.out.println(op.equalsTo(number));
 
-        if (number >= 2 && number <= 8) {
-            System.out.println("Number is:" + number);
-        } else {
-            System.out.println("Number is out of range");
-        }*/
+/* if (number >= 2 && number <= 8) {
+    System.out.println("Number is:" + number);
+} else {
+    System.out.println("Number is out of range");
+}*/
 
         /*Given a text input and a number input, if the text is equal to “FastTrack” AND the number is equal to or lower
-than 3, print the text and the number. If the text is not “FastTrack” AND     the number is equal to or higher
+than 3, print the text and the number. If the text is not “FastTrack” AND  the number is equal to or higher
 than 4, print the number and the text, in this order.*/
 
         /*System.out.println("Enter a word: ");
@@ -74,14 +75,15 @@ the given number. Else print “The forecast snow is(cm):”*/
 /* Given a number input, if the number is greater than 3 but not equal to 4, print “The number is greater than 3 and
 not equal to 4”. Else if the number is equal to 4 print ”The number is equal to 4”. Else if the number is
 lower than 3 print “The number is lower than 3”*/
-        System.out.println("Enter a number: ");
-        int number1 = scan.nextInt();
-        if (number1==4){
+        /*System.out.println("Enter a number: ");
+        int number1 = scan.nextInt();*/
+
+       /* if (number1==4){
             System.out.println("The number is equal to 4");
         }else if (number1<3){
             System.out.println("The number is lower than 3");
         } else System.out.println("The number is greater than 3 and not equal to 4");
-    }
+    }*/
 
 
 
@@ -99,7 +101,7 @@ lower than 3 print “The number is lower than 3”*/
 
         Candle lumanare = new Candle();*/
 
-    //  bark();  cu mostenire
+        //  bark();  cu mostenire
 
     /*  Dog rex = new Dog();
         rex.setAge(4);
@@ -135,5 +137,6 @@ lower than 3 print “The number is lower than 3”*/
         scadere();
         inmultire();
         impartire();*/
+    }
 }
 

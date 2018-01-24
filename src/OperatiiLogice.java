@@ -16,5 +16,13 @@ public class OperatiiLogice {
             return "Got to try some more";
         }
     }
+    public int equalsTo (int number){
+        if (number >= 2 && number <= 8) {
+            return number;
+        } else {
+            return 0;
+        }
+    }
+
 
 }
