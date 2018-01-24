@@ -16,9 +16,9 @@ public class Main {
         System.out.println("Radicalul este: " + calculator.radical(16));
 
 
-        Book conversatiiLaCatedrala = new Book();
-        conversatiiLaCatedrala.setAuthor("Vargas Llosa");
-        System.out.println("au mai ramas de citit:" + conversatiiLaCatedrala.numberOfPagesLeft(603,47));
+        Book carte = new Book();
+        carte.setAuthor("Vargas Llosa");
+        System.out.println("Au mai ramas de citit:" + carte.numberOfPagesLeft(603,47));
 
         Pen pixulFermecat = new Pen();
         pixulFermecat.setColorOfInk("red");
